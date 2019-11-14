@@ -1075,7 +1075,7 @@ address {
     width: 83.33333333%;
   }
   .col-md-9 {
-    width: 75%;
+    width: 73%;
   }
   .col-md-8 {
     width: 66.66666667%;
@@ -1093,7 +1093,7 @@ address {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 24%;
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -1216,7 +1216,7 @@ address {
     margin-left: 8.33333333%;
   }
   .col-md-offset-0 {
-    margin-left: 0%;
+    margin-left: 1%;
   }
 }
 @media (min-width: 1200px) {
