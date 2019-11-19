@@ -1853,6 +1853,7 @@ header ul li a {
   margin: -35px 0 0 -35px;
   overflow: hidden;
 }
+/*
 .img-container .skew .img-portfolio .extras:before {
   content: "+";
 }
@@ -1879,6 +1880,7 @@ header ul li a {
   opacity: .9;
   transition: .6s;
 }
+*/
 .img-container .skew .img-portfolio:hover img.no-link {
   opacity: 1;
   transition: none;
