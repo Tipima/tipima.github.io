@@ -1804,14 +1804,23 @@ header ul li a {
   }
 }
 .img-container {
-  height: 360px;
-  background: #232B2F;
+  height: 350px;
+  /*background: #232B2F;*/
   overflow: hidden;
   float: left;
 }
+.img-container-mockup {
+  padding-top: 30px;
+}
+@media (min-width: 768px) {
+  .img-container-mockup {
+    max-height: 650px;
+  }
+}
+
 @media (min-width: 768px) {
   .img-container {
-    height: 550px;
+    height: 650px;
   }
 }
 .img-container .skew {
@@ -1852,6 +1861,13 @@ header ul li a {
   border-radius: 35px;
   margin: -35px 0 0 -35px;
   overflow: hidden;
+}
+.logos-banner {
+  padding: 50px 0;
+  text-align: center;
+}
+.latest-projects {
+  padding: 50px 0;
 }
 /*
 .img-container .skew .img-portfolio .extras:before {
@@ -1897,7 +1913,11 @@ header ul li a {
 }
 @media (min-width: 768px) {
   .img-container .skew .img-portfolio {
-    height: 550px;
+    height: 650px;
+  }
+  .img-portfolio-mockup {
+    height: 650px;
+    padding-top: 120px;
   }
 }
 .text-portfolio {
@@ -1921,6 +1941,7 @@ header ul li a {
     height: 420px;
     border: 1px solid #E5F2D4;
     font-size: 12px;
+    background: #232B2F;
   }
   .text-portfolio h2 {
     font-size: 30px;
@@ -2052,6 +2073,13 @@ section.extras .logo div {
   padding: 10px;
   margin: 0 auto;
 }
+section#CTA article div {
+  /*background: #31F6D6;*/
+  text-align: center;
+  margin: 50px 20%;
+  padding: 50px;
+  /*color: #232B2F;*/
+}
 .odd-bg {
   background-color: #2F3A41;
 }
@@ -2060,6 +2088,35 @@ section.extras .logo div {
 }
 .playground .intro {
   height: 100px;
+}
+/* Articles */
+@media (min-width: 768px) {
+  article#WaH {
+    background-image: url(../images/2020/grey-bg.png);
+    background-repeat: no-repeat;
+  }
+  article#random-thoughts {
+    background-image: url(../images/2020/gren-gradient-bg.png);
+    background-repeat: no-repeat;
+  }
+  article#angelica-salvi {
+    background-image: url(../images/2020/grid-bg.png);
+    background-repeat: no-repeat;
+  }
+  article#marcosemarcos {
+    background-image: url(../images/2020/black-sq-bg.png);
+    background-repeat: no-repeat;
+  }
+  article#oldprojects {
+    background-image: url(../images/2020/squares-bg.png);
+    background-repeat: no-repeat;
+  }
+  article#logos-banner {
+    background-image: url(../images/2020/logos-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
