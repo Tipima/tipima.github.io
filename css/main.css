@@ -181,6 +181,7 @@ td,
 th {
   padding: 0;
 }
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -1787,16 +1788,22 @@ header .logo img {
   height: 40px;
   margin: 10px 0;
 }
-header ul {
+header nav ul {
   float: right;
+}
+nav ul {
+  text-align: center;
   list-style: none;
 }
-header ul li {
+nav ul li {
   display: inline-block;
 }
-header ul li a {
+nav ul li a {
   padding: 20px 5px;
   display: block;
+}
+nav.portfolio-nav ul li a{
+  padding: 20px 35px;
 }
 @media (min-width: 768px) {
   header ul li a {
@@ -1812,9 +1819,12 @@ header ul li a {
 .img-container-mockup {
   padding-top: 30px;
 }
+.img-container-mockup2 {
+  padding-top: 150px;
+}
 @media (min-width: 768px) {
   .img-container-mockup {
-    max-height: 650px;
+    /*max-height: 650px;*/
   }
 }
 
@@ -1916,7 +1926,7 @@ header ul li a {
     height: 650px;
   }
   .img-portfolio-mockup {
-    height: 650px;
+    /*height: 650px;*/
     padding-top: 120px;
   }
 }
@@ -1933,6 +1943,12 @@ header ul li a {
 }
 .text-portfolio .unSkew {
   transform: skewY(11deg);
+}
+.description-text {
+  padding-left: 80px;
+}
+.description-text div {
+  padding-left: 0px;
 }
 @media (min-width: 768px) {
   .text-portfolio {
@@ -2089,10 +2105,45 @@ section#CTA article div {
 .playground .intro {
   height: 100px;
 }
-/* Articles */
+
+/* Articles and backgrounds */
+
 @media (min-width: 768px) {
-  article#WaH {
-    background-image: url(../images/2020/grey-bg.png);
+  .article-title {
+    padding-top: 100px;
+    padding-left: 40%;
+  }
+  .article-title h2{
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+    background-color: #0aeac5;
+    color: #232B2F;
+  }
+  .article-title.web-design {
+    background-image: url(../images/2020/Green-triangle-waves.svg);
+    background-repeat: no-repeat;
+  }
+  .article-title.apps {
+    background-image: url(../images/2020/Pink-triangle-waves.svg);
+    background-repeat: no-repeat;
+  }
+  article#eCommerce {
+    background-image: url(../images/2020/big-triangle-bg.png);
+    background-repeat: no-repeat;
+  }
+  article#web-design {
+    background-image: url(../images/2020/);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  article#apps {
+    background-image: url(../images/cv-gradient.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  article#education {
+    background-image: url(../images/2020/gray-grid-bg.svg);
     background-repeat: no-repeat;
   }
   article#random-thoughts {
