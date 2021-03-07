@@ -2107,6 +2107,11 @@ section#CTA article div {
 }
 
 /* Case studies */
+
+.wrapper.case-study {
+  padding-top: 0px;
+  top: 0;
+}
 .case-study .row{
 padding-top: 40px;
 padding-bottom: 40px;
