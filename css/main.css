@@ -2106,6 +2106,30 @@ section#CTA article div {
   height: 100px;
 }
 
+/* Case studies */
+.case-study .row{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.CS-section-title {
+  border-bottom: #0aeac5 1px solid;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.case-study h2, .case-study h3 {
+  margin-top: 0;
+}
+.info-box {
+  padding: 50px;
+  background-color: #2F3A41;
+  border:#0aeac5 4px solid;
+}
+.over {
+  z-index: 2;
+  position: relative;
+  top: -200px;
+}
+
 /* Articles and backgrounds */
 
 @media (min-width: 768px) {
