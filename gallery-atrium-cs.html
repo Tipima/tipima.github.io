@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>Gallery Atrium - Case Study</title>
+
+    <!-- add later as font face - open sans - regular, condensed-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <script src="js/processing.min.js"></script>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="http://teresamarcos.net">
+                <img src="images/teresa-marcos-logo-01.svg" class="img-responsive" alt="Teresa Marcos Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#cv">CV</a></li>
+                <li><a href="index.html#work">WORK</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+                <li><a class="hidden-xs" href="playground.html">
+                    PLAYGROUND
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="wrapper container-fluid playground case-study">
+    <div class="row">
+        <img width="100%" src="images/2020/GA-hero.jpg" alt="Gallery Atrium - Inventory app for the arts and antiques industry"/>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 info-box over">
+            <h2 class="text-primary text-center">An antique dealer shop needed a new way of dealing with inventory.</h2>
+            <h2 class="text-primary text-center">This project become a product that helps several shops being more productive and make more sales.</h2>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Background</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">The client</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>M&M is an art, antiques and vintage business, they have three shops, 2 physical stores and an online shop and their items are distributed between several places, from warehouses, exhibitions, etc. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">The team</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>A full-stack developer, with a keen eye on design, and myself as product designer. 
+                    We both had experience in the industry, having worked together in many projects before.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row odd-bg">
+        <div class="col-md-6 col-md-offset-3">
+            <h2 class="text-danger CS-section-title text-center">The problem</h2>
+            <h3 class="text-primary text-center">An unmanageable way to keep track of the inventory</h3>
+                
+                <p>As their main way of recording inventory was paper, as soon as they started growing it became more and more difficult to manage all the portfolio of items. Items were sent to multiple places and third part locations and it was difficult to keep track of all the pieces, management involved a lot of calls between assistants, shop owners, printing, annotations and documents traveling. They reached us out to find a modern solution that would help them deal with this task.</p>
+            
+        </div>
+
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Discovery phase</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Exploratory research</h3>
+            </div>
+            <div class="col-md-6">
+                <h4 class="text-primary">Ethnographic research</h4>
+                <p>In order to get a better understanding of the problems, I decided to observe how they were interacting with their actual inventory. I went to their shop to do some interviews and some shadowing.</p>
+                <h4 class="text-primary">Interviews</h4>
+                <p>I interviewed shop owners and shop assistants to gain a general idea of the methodology they were using to manage the items and to understand their frustrations with the current system. Also I wanted to understand what they were expecting from the new system.</p>
+                <h4 class="text-primary">Shadowing</h4>
+                <p>To fully understand their interaction with the inventory and their business I spent some hours at the shop while they talked to customers, showed pieces, looked for prices, information and etc.
+                </p>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Findings</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>The information about the items was distributed between several paper folders and their laptop, such as extra information and pictures.</p>
+                <p>They had duplicated information across shops and warehouses.</p>
+                <p>The shop owners were always traveling and making business on the move. They showed pictures on their phone or Ipad to clients to offer items and often they had to call the assistants to get more detailed information.</p>
+                <p>The same happened inside the shops, if I client asked for an item that wasn't physically present, they would show pictures on their laptops, and often had to check for more information in the paper folders.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Improving the traditional inventory folder</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>Based on those findings we had an idea of how the new inventory system would look like.
+                    <ul>
+                        <li>It will be hosted in the cloud to allow different people from different locations to access it</li>
+                        <li>It will be fully responsible so it could be accessed seamlessly from any kind of device</li>
+                        <li>
+                            It had to be extremely easy to use as the users had been using paper because other tools looked too complicated (ie. Excel)</li>
+                        <li>It won't just be an internal inventory system, it will serve as a way of showing a catalogue of items to prospective clients. Because of that, privacy was very important in terms of not showing sensitive information.
+                        </li>
+                    </ul>
+                    
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row">
+        <img width="100%" src="images/2020/GA-paper-inventories.jpg" alt="Folders and items"/>
+    </div>
+    
+    <div class="row odd-bg">
+        
+        <div class="col-sm-6 col-md-offset-3">
+            <h2 class="text-danger CS-section-title text-center">What do we call success</h2>
+           
+            <ul class="col-sm-8 col-md-offset-3">
+                <li>A complete substitution of the actual papel inventory</li>
+                <li>More sales at the end of the month</li>
+                <li>Increased on productivity</li>
+                <li>Reduce the amount of phone calls</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Kicking off</h2>
+        <div class="col-md-2 col-md-offset-3">
+            <h3 class="text-primary">Team work</h3>
+        </div>
+        <div class="col-md-6">
+            <h4 class="text-primary">Lean approach</h4>
+            <p>The developer and I like to follow lean principles when approaching any project and we agreed to try to implement it in the real environment as soon as possible. This would give us the opportunity to learn and iterate with each release.
+            </p>
+            <h4 class="text-primary">Design handover</h4>
+            <p>The way we worked together was a mix of sending assets through Zeplin, pairing and implementing myself some design changes. We were in constant communication so we assesed what was the best way of handing over designs and implementing them.</p>
+        </div>
+        
+    </div>
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Design</h2>
+        <div class="col-md-2 col-md-offset-3">
+            <h3 class="text-primary">Sketching > Wireframing > Prototyping</h3>
+        </div>
+        <div class="col-md-6">
+            <h4 class="text-primary">Understand information and actions</h4>
+            <p>First I needed to understand all the information that was going to go in the form so I made a list with the shop's help. Also agreeing on the actions the user could do at this point. For the MVP, these were: search by any word, create new item, save, delete, edit.
+            </p>
+            <h4 class="text-primary">Sketching basic layout and structure</h4>
+            <p>To do that I started sketching ideas of the general look and sections, thinking how the interaction could be, with an eye in the requirement that some of the information should be kept hidden. I ended up with two options, one was using tabs and another with accordions.</p>
+            <h4 class="text-primary">Wireframing - Prototype</h4>
+            <p>As soon as I had a good idea of the structure I started wireframing in Sketch, putting together all the information, thinking how it would be presented and visualised. As soon as we had something that made sense to us we built an HTML prototype using bootstrap.</p>
+            
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <img width="100%" src="images/2020/GA-case-study-sketch-prototype.jpg" alt="sketches, wireframes and prototype"/>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Evaluative research</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Why</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>There were many questions around the usability of the app, how to show and hide information, the best way to edit/save/delete and see if the collected data had everything they needed, and if it was useful to display in such way. So I decided to do a round of testing. I tested it on 3 subjects.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Prototype</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>We ended up coding the prototype in Bootstrap because:
+                    <ul>
+                        <li>We needed to test how they client would be filling the form (so Invision like tools were too simplistic)</li>
+                        <li>We wanted to save time in the development process. We could reuse parts of the prototype on the final product. (using Axure or more complex tools would take same time but wouldn’t be reusable)</li>
+                        <li>*We both had very good experience coding using bootstrap so it made sense to use it.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">First round of testing</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>I was mainly interested in finding out how they would interact with the accordion and the tabs, if the labels and information prompted made sense for them and overall, if it was an easy task to just create new items, save and delete them. So I asked the users to input a new item. Then to find items and mark them as sold, to change the location of an item, etc. I also asked follow up questions to gain feedback.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Main learnings</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p></p>
+                    <ul>
+                        <li>The position of the edit button was confusing as they thought it would just edit the admin part</li>
+                        <li>Also the way the information was presented needed some improvements, for example: the price was was too visible and needed to be hidden.</li>
+                        <li>Some yes/no inputs weren’t enough and needed a text field.</li>
+                        <li>The tabs option didn’t work as the admin part was too upfront and easy to click on, possibly revealing sensitive information in front of customers.</li>
+                        <li>The accordion interaction worked well.</li>
+                        
+                    </ul>
+                   
+                    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+            
+                <p class="info-box text-center">After this round of testing we started implementing and doing quick feedback sessions of the platform with the client to improve it until it was ready for them to start working on it.</p>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Final UI</h2>
+        <img width="100%" src="images/2020/GA-final-UI.jpg" alt="sketches, wireframes and prototype"/>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 info-box">
+            <h2 class="text-primary text-center">This app has changed the way this shop deals with inventory and customers.</h2>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Learnings</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">On what went well</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>Doing exploratory research was key in the success of this project, this made me even more aware of how powerful is talking to the user early and often.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">To be improved</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>We could have saved time making assumptions on the IA by doing a participatory design session with the users at the sketching phase.
+                </p>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+
+
+    </div>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jquery-scrolltofixed-min.js"></script>
+
+<script type="text/javascript">
+
+    // google analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11151376-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+
+    // Scroll
+
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+
+
+    //scroll spy
+
+    $('body').scrollspy({ target: '.navbar-example' })
+
+
+</script>
+
+</body>
+</html>
