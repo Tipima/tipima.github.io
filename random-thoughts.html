@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>Random Thoughts, mobile app - Case Study</title>
+
+    <!-- add later as font face - open sans - regular, condensed-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <script src="js/processing.min.js"></script>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="http://teresamarcos.net">
+                <img src="images/teresa-marcos-logo-01.svg" class="img-responsive" alt="Teresa Marcos Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#cv">CV</a></li>
+                <li><a href="index.html#work">PORTFOLIO</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+                <li><a class="hidden-xs" href="playground.html">
+                    PLAYGROUND
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="wrapper container-fluid playground case-study">
+    <div class="row">
+        <img width="100%" src="images/2020/RT-hero.jpg" alt="Random Thoughts - Quotes app"/>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 info-box">
+            <h2 class="text-primary text-center">A quotes app made for reading, thinking and reflecting.</h2>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Background</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">The idea</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>The developer I normally work with, a philosophy lover, couldn’t find a good quotes app on the market focused on philosophy.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">The team</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>A full stack developer and myself as product designer.
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Tools</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>Sketch, Invision, pen and paper.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="row odd-bg">
+        <div class="col-md-6 col-md-offset-3">
+            <h2 class="text-danger CS-section-title text-center">The problem</h2>
+            
+            <p class="text-center">User research made us aware that teachers felt frustated to not find some resources they had been looking at the days before. They were using word documents to paste links and saving to favourites in the browser to keep track.</p>
+            
+        </div>
+
+    </div>-->
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Ideation</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Competitors research</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>We researched competitors, to have an idea of what it was out there in terms of functionality, usability, UI and business model.</p>
+                <p>This gave us a good idea of what we would consider a MVP, what we would like to be differentiated from etc.</p>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Moodboard</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>I created a document with screenshots of competitors apps and visual design inspiration from not just apps but anything I found would help me in developing the UI. We wanted the app to be minimalistic, to give importance to the text so I looked for typographic and minimal designs. </p>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Quotes</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>At the same time we started selecting authors and quotes that we wanted to include in the first release of the app.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--<div class="row odd-bg">
+        
+        <div class="col-sm-6 col-md-offset-3">
+            <h2 class="text-danger CS-section-title text-center">What do we call success</h2>
+           
+            <ul class="col-sm-8 col-md-offset-3">
+                
+                
+            </ul>
+        </div>
+    </div>-->
+    <div class="row">
+        <img width="100%" src="images/2020/RT-moodboard.jpg" alt="sketches, wireframes and prototype"/>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Kicking off</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">MVP</h3>
+            </div>
+            <div class="col-md-6">
+                <p>After doing research looking at competitors' apps and seeing what they were offering in terms of features, what was most common between them, and our business goals (selling books), we decided how the MVP would look like. This had to include:
+                </p>
+                <ul>
+                    <li>a quote</li>
+                    <li>save to favourites</li>   
+                    <li>see favourites</li>
+                    <li>see more info about the author</li>
+                    <li>buy books from author</li>
+                </ul>
+                
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">User flow and sketches</h3>
+            </div>
+            <div class="col-md-6">
+                <p>Having set up the  I started thinking about the user flow, exploring the most natural and easy way to explore the app.</p>
+                <p>
+                    I made many sketches, brainstorming all the ideas that came to mind together with the developer, this way together we could explore many different ways of displaying everything.  </p>
+                <p>Sketching was a great way to define the user flow, the number of screens and how the user would interact with them.</p>
+                <p> We were ready to move to start coding and designing the UI.</p>
+                
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Design handover</h3>
+            </div>
+            <div class="col-md-6">
+                <p>The way we worked together was a mix of sending assets through Zeplin and pairing</p>
+                
+                
+            </div>
+         </div>
+        
+        
+    </div>
+
+    <div class="row">
+        <img width="100%" src="images/2020/RT-user-flows.jpg" alt="user-flows"/>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Starting UI and development</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Wireframes > UI > implementation</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>I started doing low fidelity wireframes in sketch that evolved rapidly into a more comprehensive UI. With Sketch capabilities it was easy to iterate and try ideas.</p>
+                <p>I wanted the UI to be very typographic, mainly black and white with just an accent colour. So I started designing everything black and white and then tried some colours.</p>
+                    
+                <p>I tried for it to be platform agnostic so it could work well in both android and IOS. For that I did a good research trying to find common elements in their guidelines.</p>  
+                    
+                <p>As soon as I had something I shared it with the developer via Zeplin so we could be developing and designing at the same time, checking how everything worked with real code in real devices as soon as possible.</p>
+            </div>
+        </div>
+    </div>    
+    
+    <div class="row">
+        <img width="100%" src="images/2020/RT-wireframes.jpg" alt="sketches, wireframes"/>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Evaluative research</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Testing</h3>
+            </div>
+            <div class="col-md-6">
+                <p>We mainly wanted to find out if the users recognise the app as a quotes app, if they knew how to save, find the saved quotes, find out about the author and if they knew how to see a differente quote.</p>
+                <p>When we had the first working iteration of the app I tested it on 3 users, and one of them tested the app in 4 different devices.</p>
+                
+            </div>
+        </div>
+        
+    
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">What we learned</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>This usability testings were very useful as we confirmed the flow worked well with the users, they navigated without problems and the icons we were using also worked well. Also we found out some problems as the way the books were laid out (very close to the bottom of the page) made the users think there were more books and kept trying to scroll down to see more.</p>
+                <p>Also we got valuable feedback from the users as how they were expecting to see the app blending with the notification bar in some devices, something I didn't considered at that point and we could see how long strings of text were behaving in small/large screens, so we had to change some font size to accommodate to all different screen sizes.</p>
+                <p>After fixing everything we did a quick test with another person and we were confident that all was working ok now.</p>
+                    
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Finalising UI</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Reviewing the UI</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>After testing and fixing the usability problems I worked on the final touches of the design, mainly the splash screen, logo and some small details like the colour of the show more link and some font sizes.</p>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">Splash screen</h3>
+            </div>
+            <div class="col-md-6">
+                
+                <p>Because the design of the app was very minimalistic I wanted to contrast it with the splash screen. I had several ideas for it and at the end I made some 3D letters "floating into space" for the word Random,  and added a common UI element in the word Thoughts, the salmon strip used in displaying authors' names.</p>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="row">
+        <img width="100%" src="images/2020/RT-splash-process.jpg" alt="splash screen process"/>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Final screens</h2>
+        <img width="100%" src="images/2020/RT-finals.jpg" alt="final screens"/>
+    </div>
+
+    <div class="row">
+        <h2 class="text-danger CS-section-title text-center">Learnings</h2>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">On what went well</h3>
+            </div>
+            <div class="col-md-6">
+                <p>Having a MVP well defined.</p>
+                <p>Moving quickly, testing and iterating on final product.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-primary">To be improved</h3>
+            </div>
+            <div class="col-md-4">
+                <p>We could have done some previos research on the need of an app this type by doing some research or a smoke test.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4 col-md-offset-3">
+                <p>Check the app at the Google Play Store <a href="https://play.google.com/store/apps/details?id=net.deeplemon.random_thoughts" target="_blank">here</a></p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row">
+        <img width="100%" src="images/2020/RT-final-ui.jpg" alt="final UI"/>
+    </div>
+
+</div>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jquery-scrolltofixed-min.js"></script>
+
+<script type="text/javascript">
+
+    // google analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11151376-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+
+    // Scroll
+
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+
+
+    //scroll spy
+
+    $('body').scrollspy({ target: '.navbar-example' })
+
+
+</script>
+
+</body>
+</html>
