@@ -508,63 +508,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/jquery-scrolltofixed-min.js"></script>
 
-<script>
-// Send form
 
-    $("document").ready(function () {
-        (function (){
-
-            //animate CV drops
-            var drops = $('#drops').find('span');
-            var len = drops.length;
-            var count = 0;
-            var ref;
-
-            setInterval(function () {
-                if(ref) {
-                    ref.removeClass('drop');
-                }
-                ref = $(drops[count]);
-                ref.addClass('drop');
-                count++;
-                if(count > len) count = 0;
-            }, 200);
-
-        }());
-
-
-        //post contact form
-        $('#contactForm').submit(function (e) {
-            $.ajax({
-                type: 'POST',
-                url: '/contact',
-                data: {
-                    name: $('#name').val(),
-                    email: $('#email').val(),
-                    message: $('#message').val()
-                },
-                success: function (data) {
-                    if (data == 1) {
-                        $('#contact-send').html('<p class="sent">Thank you! I\'ll get back to you asap.</p');
-                        //Remove contact form and replace for message
-
-                    } else if (data == 'email is invalid') {
-                        $('#contactForm').children(':first').after('<p class="alert">Your email address is not valid</p>');
-                    }
-                }
-            });
-
-            return false;
-        });
-
-    });
-
-
-
-
-
-
-</script>
 <script type="text/javascript">
 
     // google analytics
