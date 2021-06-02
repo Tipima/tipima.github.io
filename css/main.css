@@ -1762,6 +1762,9 @@ h4:before {
   transform: rotate(15deg);
   text-align: center;
 }
+.profile-pic-intro {
+  padding-top: 90px;
+}
 .zindex-100 {
   position: absolute;
   z-index: -100;
