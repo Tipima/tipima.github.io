@@ -464,11 +464,11 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 16px;
+  font-size: 18px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 14px;
 }
 p {
   margin: 0 0 10px;
@@ -607,6 +607,16 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
+ul.list-prices {
+  border: #09d1b1 solid 1px;
+  padding: 0px;
+}
+ul.list-prices li{
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  border-bottom: #09d1b1 solid 1px;
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -635,6 +645,21 @@ dt {
 dd {
   margin-left: 0;
 }
+.call-to-action {
+  margin: 40px  0;
+}
+.btn-primary {
+  background-color: #0aeac5;
+  color: #232B2F;
+  padding: 10px 20px;
+  margin: 40px 20px 0 0;
+}
+.dotted-box {
+  border: #fff dashed 1px;
+  padding: 30px;
+  margin: 30px 0;
+}
+
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
@@ -1671,7 +1696,7 @@ address {
 }
 body {
   background-color: #232B2F;
-  font-size: 14px;
+  font-size: 16px;
   color: #E5F2D4;
 }
 .wrapper {
@@ -2108,19 +2133,19 @@ section#CTA article div {
 .playground h1.text-danger {
   padding-top: 60px;
 }
-.playground .intro {
+/* .playground .intro {
   height: 100px;
-}
+} */
 
 /* Case studies */
-
 .wrapper.case-study {
   padding-top: 0px;
   top: 0;
 }
+
 .case-study .row{
-padding-top: 40px;
-padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .CS-section-title {
   border-bottom: #0aeac5 1px solid;
