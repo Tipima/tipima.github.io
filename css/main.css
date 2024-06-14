@@ -99,6 +99,9 @@ hr {
 pre {
   overflow: auto;
 }
+.clearfix {
+  clear: both;
+}
 code,
 kbd,
 pre,
