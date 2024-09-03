@@ -474,7 +474,9 @@ h6,
   font-size: 14px;
 }
 p {
-  margin: 0 0 10px;
+  /* margin: 0 0 10px; */
+  line-height: 1.4;
+  padding-top: 10px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1734,6 +1736,9 @@ h4:before {
   margin-top: -60px;
   background-color: #232B2F;
 }
+.bg-dark {
+  background-color: #181d21;
+}
 @media (min-width: 992px) {
   .playground-title {
     font-size: 90px;
@@ -2115,6 +2120,9 @@ input[type="submit"] {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 21px;
 }
+section {
+  padding: 80px 0 80px 0;
+}
 section.extras .logo {
   text-align: center;
 }
@@ -2217,7 +2225,7 @@ section#CTA article div {
     background-image: url(../images/2020/grid-bg.png);
     background-repeat: no-repeat;
   }
-  article#marcosemarcos {
+  article#diegosainz {
     background-image: url(../images/2020/black-sq-bg.png);
     background-repeat: no-repeat;
   }
